@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "The New Focus",
+  "description": "The New Focus",
+  "version": "1",
+  "author": "Varick Lim",
+  "browser_action": {
+    "default_icon": "tab-icon.png",
+    "default_title": "The New Focus",
+    "default_popup": "onboarding.html"
+  },
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "background": {
+    "scripts": ["jquery.min.js", "background.js"]
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.min.js"]
+    }
+  ]
+}

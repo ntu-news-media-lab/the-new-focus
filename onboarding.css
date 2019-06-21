@@ -1,0 +1,119 @@
+body {
+  overflow: hidden;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.tnf-logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 150px;
+  height: auto;
+}
+
+.slider {
+  width: 300%;
+  padding: 80px 0;
+  transition: margin-left 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.slide {
+  float: left;
+  width: 33.333333%;
+  text-align: center;
+}
+
+.slide .circle {
+  height: 200px;
+  display: inline-block;
+  width: 200px;
+  background-size: cover;
+}
+
+#welcome {
+  background-image: url('img/circles/welcome-small.png');
+  background-position: right;
+}
+
+#discover {
+  background-image: url('img/circles/discover-small.png');
+  background-position-x: 11%;
+}
+
+#all-set {
+  background-image: url('img/circles/all-set-small.png');
+  background-position-x: -82px;
+}
+
+.slide h1 {
+  font-size: 48px;
+  font-family: "Bodoni MT", serif;
+  font-weight: bold;
+  margin: 15px 0 0;
+}
+
+.slide p {
+  line-height: 1.4em;
+  font-size: 13px;
+  width: 270px;
+  margin: 0 auto;
+  color: #848484;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+}
+
+.footer > div {
+  width: 20%;
+}
+
+.dots {
+  padding: 3px 3px 3px 18px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.dot.fill {
+  background-color: black;
+}
+
+#skip {
+  cursor: pointer;
+  padding: 3px 10px;
+  color: #848484;
+  font-size: 10px;
+  letter-spacing: 3px;
+  display: inline-block;
+}
+
+.skip {
+  text-align: center;
+}
+
+.arrow {
+  padding-right: 15px;
+  text-align: right;
+}
+
+#next-circle {
+  cursor: pointer;
+  position: relative;
+  padding: 3px;
+  /* top: -5px; */
+}

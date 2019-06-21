@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TNP Playlist</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <img id="close-icon" src="./img/x.png">
+      <div id="welcome">
+        Good <img src="./img/logo.png" class="logo" />
+        <div id="greeting">Morning</div>
+      </div>
+      <div class="edition">
+        <div style="color:orange; padding-bottom: 4px;">EDITION</div>
+        <span id="date"><b>&nbsp;</b></span> |
+        <div id="day">&nbsp;</div>
+      </div>
+      <div class="nextedi">
+        Next edition coming at <span id="next-edi-timing">12pm</span>
+      </div>
+      <hr />
+    </div>
+
+    <div class="content">
+      <!-- FEATURED -->
+      <div>
+        <span class="pull-left featured-header">FEATURED</span>
+        <span class="pull-right" id="right-arrow">
+          <img width="18px" height="18px" src="img/right-thick.png">
+        </span>
+        <span class="pull-right disabled" id="left-arrow">
+          <img width="18px" height="18px" src="img/left-thick.png">
+        </span>
+      </div>
+      <div class="featured-container"></div>
+
+      <!-- Playlists -->
+      <div style="font-size: 18px; margin-top: 20px; clear: both;">
+        <b>DISCOVER</b>
+      </div>
+      <div class="mood-picker" id="Morning">
+        <div style="font-size: 13px; margin-top: 5px;">
+          Beat the morning rush. Find your focus for today!
+        </div>
+        
+        <!-- Breaking News -->
+        <div class="main mood" id="breaking">
+            <img src="./img/Breaking News.jpg">
+        </div>
+
+        <!-- Trending news -->
+        <div style="float: left;" class="mood" id="trending">
+          <img src="./img/Trending news.jpg">
+        </div>
+
+        <!-- Catch Up -->
+        <div style="float: right;" class="mood" id="catchup">
+          <img src="./img/Catch Up.jpg">
+        </div>
+      </div>
+
+      <div class="mood-picker" id="Afternoon">
+        <div style="font-size: 12px; margin-top: 5px;">
+          Beat the morning rush. Find your focus for today!
+        </div>
+        <!-- Lunch munch -->
+        <div class="main mood" id="lunchmunch">
+          <img src="./img/Lunch munch.jpg">
+        </div>
+        <!-- SG Focus -->
+        <div style="float: left;" class="mood" id="sgfocus">
+          <img src="./img/SG Focus.jpg">
+        </div>
+        <!-- Entertainment -->
+        <div style="float: right;" class="mood" id="entertainment">
+          <img src="./img/Entertainment.jpg">
+        </div>
+      </div>
+
+      <div class="mood-picker" id="Evening">
+        <div style="font-size: 11px; margin-top: 5px;">
+          Beat the morning rush. Find your focus for today!
+        </div>
+        <!-- Rewind -->
+        <div class="main mood" id="rewind">
+          <img src="./img/Today rewind.jpg">
+        </div>
+        <!-- Dinner Spots -->
+        <div style="float: left;" class="mood" id="dinnerspots">
+          <img src="./img/Dinner spots.jpg">
+        </div>
+        <!-- Cook It Tonight -->
+        <div style="float: right;" class="mood" id="cookittonight">
+          <img src="./img/Cook it Tonight.jpg">
+        </div>
+      </div>
+
+      <div class="row">
+        <a href="https://epaper.tnp.sg" target="_blank" style="float: left; display: block;" class="mood">
+          <img src="./img/Read.jpg">
+        </a>
+        <a href="https://www.tnp.sg" target="_blank" style="float: right; display: block;" class="mood">
+          <img src="./img/Visit.jpg">
+        </a>
+      </div>
+
+    </div>
+
+    <script src="json/breaking.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>

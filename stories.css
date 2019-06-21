@@ -1,0 +1,191 @@
+.header {
+  font-family: "Bodoni MT";
+  width: 100%;
+  line-height: 53px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  z-index: 10;
+}
+
+.content {
+  padding: 72px 20px 20px;
+  overflow: auto;
+}
+
+.content img {
+  width: 100%;
+  display: block;
+}
+
+.topfont {
+  /* width: 135px; */
+  font-size: 11px;
+  color: #555555;
+  padding-bottom: 10px;
+}
+
+.tile {
+  padding: 8px 0;
+}
+
+.tile img {
+  display: block;
+  min-height: 100px;
+}
+
+.portrait {
+  padding-top: 55%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.column {
+  width: calc(50% - 5px);
+}
+
+.column.side {
+  width: calc(35% - 5px);
+}
+
+.column.main {
+  width: calc(65% - 5px);
+}
+
+.column.small {
+  width: calc(50% - 10px);
+}
+
+.column.left {
+  float: left;
+}
+
+.column.right {
+  float: right;
+}
+
+.row {
+  position: relative;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.verticle-line {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  right: 0;
+  left: 0;
+  height: auto;
+  margin: 0 auto;
+  width: 0;
+  border-right: 0.5px solid black;
+}
+
+.tile-btm {
+  clear: both;
+}
+
+.headline-large,
+.lead-large,
+.date-large,
+.headline-small,
+.lead-small,
+.date-small {
+  margin: 5px 0 2px;
+}
+
+a.headline-large, a.headline {
+  color: black;
+  text-decoration: none;
+}
+
+.headline-large {
+  font-size: 16px;
+  font-weight: bold;
+}
+.lead-large {
+  font-size: 11px;
+}
+.date-large {
+  font-size: 10px;
+  color: #A4A4A4;
+}
+
+.headline-small {
+  font-size: 15px;
+  display: block;
+  font-weight: bold;
+}
+.lead-small {
+  font-size: 11px;
+}
+.date-small {
+  font-size: 10px;
+  color: #A4A4A4;
+}
+
+.mood-cards-btm {
+  display: none;
+  /* display: flex; */
+  justify-content: space-between; 
+}
+
+.mood-cards-btm > div {
+  display: inline-block;
+  width: calc(50% - 10px);
+  /* margin-top: 20px; */
+  margin-top: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  height: 100px;
+  cursor: pointer;
+  /* background-size: 100% auto;
+  background-position-y: 85%; */
+  background-size: cover;
+}
+
+
+.mood-cards-btm > div:nth-child(even) {
+  float: left;
+}
+
+.mood-cards-btm #breaking {
+  background-image: url('img/Breaking News.jpg');
+}
+.mood-cards-btm #trending {
+  background-image: url('img/Trending news.jpg');
+}
+.mood-cards-btm #catchup {
+  background-image: url('img/Catch Up.jpg');
+}
+.mood-cards-btm #lunchmunch {
+  background-image: url('img/Lunch munch.jpg');
+  background-position-y: 8%;
+}
+.mood-cards-btm #sgfocus {
+  background-image: url('img/SG Focus.jpg');
+  background-position-y: 25%;
+}
+.mood-cards-btm #entertainment {
+  background-image: url('img/Entertainment.jpg');
+  background-position-y: 15%;
+}
+.mood-cards-btm #todayrewind {
+  background-image: url('img/Today rewind.jpg');
+  background-position-y: 5%;
+}
+.mood-cards-btm #dinnerspots {
+  background-image: url('img/Dinner spots.jpg');
+  background-position-y: 3%;
+}
+.mood-cards-btm #cookittonight {
+  background-image: url('img/Cook it Tonight.jpg');
+  background-position-y: 1%;
+}

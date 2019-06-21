@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TNP Playlist</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css" />
+    <link rel="stylesheet" type="text/css" href="stories.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <img id="back-icon" src="./img/left.png">
+      <img id="close-icon" src="./img/x.png">
+      <div id="mood-title" style="font-size: 23px;">Today Rewind</div> 
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <div id="content"></div>
+      <hr class="thin" />
+      
+      <div style="text-align: center; padding: 25px 0; font-size: 13px;">
+        <!-- <img src="./img/caughtup.png" style="height: 32px; width: 32px; display: inline-block">
+        <br /> -->
+        <div class='caughtIt'>
+          <div style="width: 40px;" class='circle-container'>
+            <div class="trigger drawn"></div>
+            <svg version="1.1" id="tick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 37 37" style="enable-background:new 0 0 37 37;" xml:space="preserve">
+            <path class="circ path" style="fill:none;stroke:#000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;" d="
+              M30.5,6.5L30.5,6.5c6.6,6.6,6.6,17.4,0,24l0,0c-6.6,6.6-17.4,6.6-24,0l0,0c-6.6-6.6-6.6-17.4,0-24l0,0C13.1-0.2,23.9-0.2,30.5,6.5z"
+              />
+            <polyline class="tick path" style="fill:none;stroke:#000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;" points="
+              11.6,20 15.9,24.2 26.4,13.8 "/>
+            </svg>
+          </div>
+        </div>
+        <br />
+        Great, you're all caught up!
+      </div>
+
+      <b>READ ON</b>
+      <hr class="thick" />
+      <div id="morning-moods" class="mood-cards-btm">
+        <div id="breaking"></div>
+        <div id="trending"></div>
+        <div id="catchup"></div>
+      </div>
+      <div id="afternoon-moods" class="mood-cards-btm">
+        <div id="lunchmunch"></div>
+        <div id="sgfocus"></div>
+        <div id="entertainment"></div>
+      </div>
+      <div id="evening-moods" class="mood-cards-btm">
+        <div id="todayrewind"></div>
+        <div id="dinnerspots"></div>
+        <div id="cookittonight"></div>
+      </div>
+    </div>
+    <script src="json/lunchmunch.js"></script>
+    <script src="json/entertainment.js"></script>
+    <script src="json/sgfocus.js"></script>
+    <script src="stories.js"></script>
+    </body>
+  </html>
+  
