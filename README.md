@@ -6,6 +6,8 @@ We wanted to solve the issue of news being overwhelmed through an extension that
 
 The Chrome extension would be useful to immediately streamline what is relevant for users at certain times of the day. It also allows readers to access news without having to go the news site directly, and solves the issue of getting bombarded by notifications when it comes to news apps.
 
+![Screenshots](/screenshot.png?raw=true "Screenshots")
+
 ## Installation
 
 1. Download and unzip this code repository
