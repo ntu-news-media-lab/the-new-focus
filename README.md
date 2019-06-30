@@ -16,3 +16,17 @@ The Chrome extension would be useful to immediately streamline what is relevant 
 4. Click on 'Load unpacked'
 5. Select the code repository folder
 6. You should see 'The New Focus' as a chrome extension
+
+## Linking API to The New Focus
+
+To link your articles to TNF, you will need to have a set of APIs that serve different 'playlists' of new stories. E.g. 'Breaking News', 'Entertainment', 'Food' etc. The APIs should return an array of articles in JSON format.
+
+Every news article should have the following information:
+- `headline`
+- `img_src`
+- `lead`
+- `published_date`
+- `category`
+- `url`
+
+Replace the default playlists with your APIs.
