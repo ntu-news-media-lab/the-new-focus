@@ -34,7 +34,7 @@ Replace the default playlists with your APIs.
 ---
 
 ### Team members
-Journalist: Kyle Malinda-White and Claudia Tan
+Journalists: Kyle Malinda-White and Claudia Tan
 
 Designers: Jonathan Goh and Elizabeth Wun
 
