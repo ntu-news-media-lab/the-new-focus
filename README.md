@@ -30,3 +30,19 @@ Every news article should have the following information:
 - `url`
 
 Replace the default playlists with your APIs.
+
+---
+
+### Team members
+Journalist: Kyle Malinda-White and Claudia Tan
+
+Designers: Jonathan Goh and Elizabeth Wun
+
+Developers: Varick Lim and Nithyasri Manikandan
+
+### Acknowledgements
+Ms Jessica Tan and Miss Joan Kelly for the guidance and for giving us the opportunity to embark on the News Media Lab course.
+
+Alan Soon and Rishad Patel from The Splice Newsroom for the kind guidance and advice.
+
+Jonathan Roberts from The New Paper for the continuous support and feedback.
