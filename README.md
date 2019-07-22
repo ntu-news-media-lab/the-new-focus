@@ -8,6 +8,8 @@ The Chrome extension would be useful to immediately streamline what is relevant 
 
 ![Screenshots](/screenshot.png?raw=true "Screenshots")
 
+Watch a demo of The New Focus [here](https://www.youtube.com/watch?v=_lQx1N6UFt0).
+
 ## Installation
 
 1. Download and unzip this code repository
